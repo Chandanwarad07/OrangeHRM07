@@ -14,8 +14,8 @@ public void verifyLoginWithValidCredentials()
 {
 		HomePage hp = new HomePage(driver);
 		
-		hp.enterUsername("Admin");
-		hp.enterPassword("admin123");
+		hp.enterUsername(p.getProperty("username"));
+		hp.enterPassword(p.getProperty("password"));
 		hp.clickButton();
 		
 		

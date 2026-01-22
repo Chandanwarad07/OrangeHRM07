@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-23T01:12:47 IST" name="Default suite" finished-at="2026-01-23T01:13:14 IST" duration-ms="26818">
+  <suite started-at="2026-01-23T01:36:24 IST" name="Default suite" finished-at="2026-01-23T01:36:48 IST" duration-ms="23737">
     <groups>
     </groups>
-    <test started-at="2026-01-23T01:12:47 IST" name="Default test" finished-at="2026-01-23T01:13:14 IST" duration-ms="26818">
+    <test started-at="2026-01-23T01:36:24 IST" name="Default test" finished-at="2026-01-23T01:36:48 IST" duration-ms="23737">
       <class name="testCases.TC0002_LoginRegriest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC0002_LoginRegriest@233795b6]" started-at="2026-01-23T01:12:47 IST" name="setup" finished-at="2026-01-23T01:13:07 IST" duration-ms="19438" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC0002_LoginRegriest@3eb25e1a]" started-at="2026-01-23T01:36:24 IST" name="setup" finished-at="2026-01-23T01:36:40 IST" duration-ms="16144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithValidCredentials()[pri:0, instance:testCases.TC0002_LoginRegriest@233795b6]" started-at="2026-01-23T01:13:07 IST" name="verifyLoginWithValidCredentials" finished-at="2026-01-23T01:13:14 IST" duration-ms="6976" status="PASS">
+        <test-method signature="verifyLoginWithValidCredentials()[pri:0, instance:testCases.TC0002_LoginRegriest@3eb25e1a]" started-at="2026-01-23T01:36:40 IST" name="verifyLoginWithValidCredentials" finished-at="2026-01-23T01:36:47 IST" duration-ms="7179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC0002_LoginRegriest@233795b6]" started-at="2026-01-23T01:13:14 IST" name="tearDown" finished-at="2026-01-23T01:13:14 IST" duration-ms="355" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC0002_LoginRegriest@3eb25e1a]" started-at="2026-01-23T01:36:47 IST" name="tearDown" finished-at="2026-01-23T01:36:48 IST" duration-ms="363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
