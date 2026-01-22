@@ -1,20 +1,23 @@
 package apiTests;
 
-import static io.restassured.RestAssured.*;
+import static io.restassured.RestAssured.given;
 
 import org.testng.annotations.Test;
 
-public class SampleAPITest {
+import testBase.BaseClassAPI;
+
+public class SampleAPITest extends BaseClassAPI {
 	
 	 @Test
 	    public void verifyGetUsers() {
 
-	        given()
-	            .baseUri("https://reqres.in")
-	        .when()
-	            .get("/api/users?page=2")
-	        .then()
-	            .statusCode(200);
-	    }
+		 given()
+         .queryParam("postId", 1)
+     .when()
+         .get("/comments")
+     .then()
+         .log().all()
+         .statusCode(200);
+ }
 
 }

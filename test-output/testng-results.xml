@@ -2,24 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-23T01:36:24 IST" name="Default suite" finished-at="2026-01-23T01:36:48 IST" duration-ms="23737">
+  <suite started-at="2026-01-23T01:55:34 IST" name="Default suite" finished-at="2026-01-23T01:55:37 IST" duration-ms="2660">
     <groups>
     </groups>
-    <test started-at="2026-01-23T01:36:24 IST" name="Default test" finished-at="2026-01-23T01:36:48 IST" duration-ms="23737">
-      <class name="testCases.TC0002_LoginRegriest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC0002_LoginRegriest@3eb25e1a]" started-at="2026-01-23T01:36:24 IST" name="setup" finished-at="2026-01-23T01:36:40 IST" duration-ms="16144" status="PASS">
+    <test started-at="2026-01-23T01:55:34 IST" name="Default test" finished-at="2026-01-23T01:55:37 IST" duration-ms="2660">
+      <class name="apiTests.SampleAPITest">
+        <test-method is-config="true" signature="setupAPI()[pri:0, instance:apiTests.SampleAPITest@7dcf94f8]" started-at="2026-01-23T01:55:34 IST" name="setupAPI" finished-at="2026-01-23T01:55:34 IST" duration-ms="493" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithValidCredentials()[pri:0, instance:testCases.TC0002_LoginRegriest@3eb25e1a]" started-at="2026-01-23T01:36:40 IST" name="verifyLoginWithValidCredentials" finished-at="2026-01-23T01:36:47 IST" duration-ms="7179" status="PASS">
+        </test-method> <!-- setupAPI -->
+        <test-method signature="verifyGetUsers()[pri:0, instance:apiTests.SampleAPITest@7dcf94f8]" started-at="2026-01-23T01:55:34 IST" name="verifyGetUsers" finished-at="2026-01-23T01:55:37 IST" duration-ms="2124" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC0002_LoginRegriest@3eb25e1a]" started-at="2026-01-23T01:36:47 IST" name="tearDown" finished-at="2026-01-23T01:36:48 IST" duration-ms="363" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC0002_LoginRegriest -->
+        </test-method> <!-- verifyGetUsers -->
+      </class> <!-- apiTests.SampleAPITest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -22,7 +22,6 @@ public class BaseClass {
 	{
 		
 		
-		
 //		 RestAssured.baseURI = "https://reqres.in";
 		 
 		 p = new Properties();
