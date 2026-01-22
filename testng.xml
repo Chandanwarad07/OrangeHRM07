@@ -6,4 +6,12 @@
       <class name="testCases.TC0002_LoginRegriest"/>
     </classes>
   </test> <!-- Test -->
+  
+  
+    <test name="API Tests">
+        <classes>
+            <class name="apiTests.SampleAPITest"/>
+        </classes>
+    </test>
+  
 </suite> <!-- Suite -->
