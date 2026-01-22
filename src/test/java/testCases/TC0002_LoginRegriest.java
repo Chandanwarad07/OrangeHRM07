@@ -23,7 +23,7 @@ public class TC0002_LoginRegriest {
 		
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		driver.manage().window().maximize();
-		Thread.sleep(10000);
+//		Thread.sleep(10000);
 		
 		
 	}
