@@ -1,0 +1,4 @@
+pageObject\AdminPage.class
+pageObject\BasePgae.class
+pageObject\HomePage.class
+testCases\TC0002_LoginRegriest.class

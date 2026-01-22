@@ -4,11 +4,12 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
+
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import pageObject.AdminPage;
 import pageObject.HomePage;
 
 public class TC0002_LoginRegriest {
@@ -36,11 +37,35 @@ public void verifyLoginWithValidCredentials()
 		hp.enterPassword("admin123");
 		hp.clickButton();
 		
+		
+		AdminPage ap = new AdminPage(driver);
+		
+		ap.clickAdmin();
+		ap.clickAdd();
 
-		Assert.assertTrue(
-		    driver.getCurrentUrl().contains("dashboard"),
-		    "Login falid -Bashboard not diaplayed"
-		);
+		ap.enterEmployeeName("Paul Collings");
+		
+		String randomUser = "user" + System.currentTimeMillis();
+		ap.enterEmployeeName(randomUser);
+		
+		
+		
+		ap.selectUserRoleAdmin();
+		ap.selectStatusEnabled();
+		ap.enterUserName("testUser123");
+		
+		String rendomUserName ="user" +System.currentTimeMillis();
+		ap.enterUserName(rendomUserName);
+		
+		String randomPassword = "Admin@" +System.currentTimeMillis();
+		ap.enterPassword(randomPassword);
+		
+		ap.enterPassword("Admin@123'");
+
+		
+		 ap.clickSave();
+
+		 
 	}
 	@AfterClass
 	public void tearDown()

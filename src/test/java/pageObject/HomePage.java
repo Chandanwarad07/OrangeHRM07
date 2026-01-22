@@ -22,6 +22,11 @@ public class HomePage extends BasePgae {
 	@FindBy(xpath="//button[normalize-space()='Login']")
 	WebElement clickLogin;
 	
+	@FindBy(xpath = "//h6[text()='Dashboard']")
+	WebElement dashboardHeader;
+	
+	
+	
 	
 	public void enterUsername(String user) {
 		userName.sendKeys(user);
@@ -35,6 +40,11 @@ public class HomePage extends BasePgae {
 	public void clickButton() {
 		clickLogin.click();
 	}
+	
+	public boolean isisDashboardDisplayed() {
+	    return dashboardHeader.isDisplayed();
+	}
+
 }
 
 
@@ -51,3 +61,6 @@ public class HomePage extends BasePgae {
 //@FindBy(xpath="//input[@placeholder='Username']") @CacheLookup private WebElement username;
 //@Fi@FindBy(xpath="//button[normalize-space()='Login']")ndBy(xpath="//input[@placeholder='Password']") @CacheLookup private WebElement password;
 // @CacheLookup private WebElement login;
+
+
+//@FindBy(xpath="//span[@class='oxd-text oxd-text--span oxd-main-menu-item--name'][normalize-space()='Dashboard']") @CacheLookup private WebElement dashboard;
