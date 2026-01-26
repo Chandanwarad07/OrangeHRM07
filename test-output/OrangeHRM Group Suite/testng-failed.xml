@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM Group Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Sanity Tests(failed)">
+    <groups>
+      <run>
+        <include name="master"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.TC0003_LoginRegriest">
+        <methods>
+          <include name="verifyLoginDDT" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- testCases.TC0003_LoginRegriest -->
+      <class name="testCases.TC0002_LoginRegriest">
+        <methods>
+          <include name="verifyLoginWithValidCredentials"/>
+        </methods>
+      </class> <!-- testCases.TC0002_LoginRegriest -->
+    </classes>
+  </test> <!-- Sanity Tests(failed) -->
+</suite> <!-- Failed suite [OrangeHRM Group Suite] -->

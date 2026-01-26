@@ -81,12 +81,22 @@ public class AdminPage extends BasePgae{
 	  
 	  public void enterPassword(String pass) {
 		  password.sendKeys(pass);
-		  confirmPassword.sendKeys(pass);
+		  
+	  }
+	  
+	  public void enterConfirmPasswor(String conf) {
+		  
+		  confirmPassword.sendKeys(conf);
 	  }
 	  
 	  
 	 public void clickSave() {
 		 saveButton.click();
+	 }
+
+	 public boolean isUserCreated() {
+		// TODO Auto-generated method stub
+		return false;
 	 }
 	 
 	
