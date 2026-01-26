@@ -1,4 +1,11 @@
+testBase\BaseClassAPI.class
+apiTests\SampleAPITest.class
+apiTests\verifyGetUsers.class
+utilities\ExcelUtility.class
+testBase\BaseClass.class
+testCases\TC0002_LoginRegriest.class
+testCases\TC0003_LoginRegriest.class
 pageObject\AdminPage.class
+utilities\DataProviders.class
 pageObject\BasePgae.class
 pageObject\HomePage.class
-testCases\TC0002_LoginRegriest.class
